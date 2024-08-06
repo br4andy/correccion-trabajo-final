@@ -1,0 +1,322 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.navbar-nav {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/banner\ coffee.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 90%;
+  text-align: center;
+  padding: 20px;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  line-height: 80px;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  text-shadow: #a86e50 5px 0px;
+  text-decoration: overline 10px;
+  font-weight: bold;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 12px 35px;
+  background-color: #a86e50;
+  color: #F9FAFC;
+  text-transform: uppercase;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-1:hover {
+  color: #431905;
+}
+
+/* Servicios */
+.img {
+  background-image: url(../images/fondo\ nav.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 8vh;
+  display: flex;
+  align-items: center;
+}
+
+.titulocarta {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.menucafe {
+  display: block;
+  margin: 50px auto;
+  width: 90%;
+  border: 5px solid #431905;
+  border-radius: 20px;
+}
+
+.especialidades {
+  margin-top: 200px;
+}
+
+.titulo-especialidades {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.esp1, .esp2, .esp3 {
+  width: 50%;
+  margin: 20px auto;
+  border: 4px solid black;
+  border-radius: 3%;
+}
+
+.esp1content, .carajillo, .cafebombon {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.esp1content p, .carajillo p, .cafebombon p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 50px;
+  padding: 10px 10px;
+}
+
+.panaderiah1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.menupana {
+  display: block;
+  margin: 50px auto;
+  width: 90%;
+  border: 2px solid #431905;
+  border-radius: 20px;
+}
+
+.bodycolor {
+  background-image: url(/images/fondo\ beige.jpg);
+}
+
+.maincontent {
+  background-image: url(../images/Tu\ Historia\ Horarios\ De\ Atención\ Fotográfico\ Blanco\ y\ Negro\ .svg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 92vh;
+  display: flex;
+  align-items: center;
+}
+
+.maincontent h1 {
+  font-size: 60px;
+  color: white;
+  font-weight: bold;
+  margin-left: 30px;
+  text-align: center;
+}
+
+.ubics {
+  padding: 50px;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*PAGINA NOSOTROS*/
+.nosotros1 {
+  background-image: url(../images/fondo\ beige.jpg);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo h1 {
+  font-size: 65px;
+  font-weight: bold;
+  text-shadow: rgb(179, 115, 67) 3px 1px;
+  position: absolute;
+  top: 350px;
+  left: 150px;
+}
+
+.titulo p {
+  font-size: 20px;
+  font-weight: bold;
+  width: 800px;
+  padding: 15px 15px;
+  text-align: center;
+  position: absolute;
+  left: 65px;
+  top: 420px;
+}
+
+.logos {
+  font-size: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  right: 400px;
+}
+
+.instagram h2 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 130px;
+  bottom: 530px;
+}
+
+.wtsp h2 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 130px;
+  bottom: 345px;
+}
+
+.gmail h2 {
+  font-size: 50px;
+  color: black;
+  position: absolute;
+  right: 230px;
+  bottom: 165px;
+}
+
+.ubics p {
+  font-size: 25px;
+  color: white;
+  padding: 20px 20px;
+}
+
+/*PAGINA PRODUCTOS*/
+/* Estilos generales */
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos de la barra de navegación */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.navbar-nav {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/* Estilos de los títulos de sección */
+.h1prod {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.titulo1 {
+    margin-top: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Estilos de los contenedores de productos */
+.container-prod, .container-prod2 {
+    padding: 20px;
+}
+
+.paquetes-cafe, .capsulas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cont1, .cont2, .cont3, .capsula1, .capsula2, .capsula3 {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    border: black solid 2px;
+    border-radius: 10px;
+    background-color: rgb(248, 248, 229);
+}
+
+.paq1, .paq2, .paq3, .ccl, .espresso, .capuccino {
+    width: 100%;
+    height: auto;
+}
+
+.text1, .text2, .text3, .textc1, .textc2, .textc3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    margin-top: 20px;
+}
